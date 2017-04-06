@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"clean-webpack-plugin",
+    "devDependencies": {
+        "clean-webpack-plugin": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-clean-webpack-plugin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-clean-webpack-plugin"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
