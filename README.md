@@ -1,9 +1,14 @@
-# api documentation for  [clean-webpack-plugin (v0.1.16)](https://github.com/johnagan/clean-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin)
+# npmdoc-clean-webpack-plugin
+
+#### api documentation for  [clean-webpack-plugin (v0.1.16)](https://github.com/johnagan/clean-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin)
+
 #### A webpack plugin to remove your build folder(s) before building
 
-[![NPM](https://nodei.co/npm/clean-webpack-plugin.png?downloads=true)](https://www.npmjs.com/package/clean-webpack-plugin)
+[![NPM](https://nodei.co/npm/clean-webpack-plugin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/clean-webpack-plugin)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-clean-webpack-plugin_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-clean-webpack-plugin/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "John Agan",
-        "email": "johnagan@gmail.com"
+        "name": "John Agan"
     },
     "bugs": {
         "url": "https://github.com/johnagan/clean-webpack-plugin/issues"
@@ -51,13 +55,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "johnagan",
-            "email": "johnagan@github.com"
+            "name": "johnagan"
         }
     ],
     "name": "clean-webpack-plugin",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/johnagan/clean-webpack-plugin.git"
@@ -70,16 +72,6 @@
     "version": "0.1.16"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module clean-webpack-plugin](#apidoc.module.clean-webpack-plugin)
-
-
-
-# <a name="apidoc.module.clean-webpack-plugin"></a>[module clean-webpack-plugin](#apidoc.module.clean-webpack-plugin)
 
 
 
