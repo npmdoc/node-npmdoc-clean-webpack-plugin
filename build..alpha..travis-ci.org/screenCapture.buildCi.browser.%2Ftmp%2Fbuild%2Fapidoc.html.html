@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/johnagan/clean-webpack-plugin"
-
-    >clean-webpack-plugin (v0.1.16)</a>
+    <a href="https://github.com/johnagan/clean-webpack-plugin">clean-webpack-plugin (v0.1.16)</a>
 </h1>
 <h4>A webpack plugin to remove your build folder(s) before building</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.clean-webpack-plugin">module clean-webpack-plugin</a><ol>
 
@@ -109,7 +102,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function CleanWebpackPlugin(paths, options) {
   //backwards compatibility
-  if (typeof options === &#x27;string&#x27;) {
+  if (typeof options === 'string') {
     options = {
       root: options
     }
@@ -117,7 +110,7 @@
 
   options = options || {};
   if (options.verbose === undefined) {
-    if (process.env.NODE_ENV === &#x27;test&#x27;) {
+    if (process.env.NODE_ENV === 'test') {
       options.verbose = false;
     } else {
       options.verbose = true;
@@ -133,7 +126,7 @@
   options.root = options.root || path.dirname(module.parent.filename);
 
   // allows for a single string entry
-  if (typeof paths == &#x27;string&#x27; || paths instanceof String) {
+  if (typeof paths == 'string' || paths instanceof String) {
     paths = [paths];
   }
 
@@ -186,3 +179,4 @@
     ]
 </div>
 </div>
+</body></html>
