@@ -1,6 +1,6 @@
 # npmdoc-clean-webpack-plugin
 
-#### api documentation for  [clean-webpack-plugin (v0.1.16)](https://github.com/johnagan/clean-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin)
+#### basic api documentation for  [clean-webpack-plugin (v0.1.16)](https://github.com/johnagan/clean-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmdoc-clean-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clean-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clean-webpack-plugin)
 
 #### A webpack plugin to remove your build folder(s) before building
 
@@ -69,7 +69,8 @@
         "test-travis": "istanbul cover _mocha -- -R spec ./test/*_spec.js",
         "test:watch": "npm run test -- --watch"
     },
-    "version": "0.1.16"
+    "version": "0.1.16",
+    "bin": {}
 }
 ```
 
